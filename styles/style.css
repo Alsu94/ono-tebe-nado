@@ -1,1 +1,69 @@
-/* место для вашего кода */
+.page {
+
+}
+
+.content-section {
+    padding: 0 24px;
+}
+
+.header {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 163px 1fr;
+    padding-top: 92px;
+    padding-bottom: 96px;
+
+}
+
+.header__menu {
+    /* justify-items: start; */
+    align-self: center;
+    /* justify-self: center; */
+    /* justify-self: start; */
+
+}
+
+.header__menu-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    /* row-gap: 13px; */
+    list-style-type: circle;
+}
+
+.header__menu-item_no-bullit {
+    list-style: none;
+}
+
+.header__menu-item_active {
+    text-decoration: none;
+}
+
+.header__menu-link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: auto;
+}
+
+.header__logo {
+    justify-items: center;
+    /* align-items: center; */
+    /* align-self: center; */
+    justify-self: center;
+}
+
+.header__logo-image {
+    height: 105px;
+    width: 136px;
+}
+
+
+.address {
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 24.3px;
+
+}
