@@ -12,7 +12,6 @@
     grid-template-columns: 2.7fr 1fr 2.7fr;
     padding-top: 92px;
     padding-bottom: 93px;
-
 }
 
 .header__menu {
@@ -65,4 +64,23 @@
 .address-box {
     grid-column: 7 / -1;
     display: grid;
+}
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.overlay {
+
+}
+
+.cover__title {
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: white;
 }
