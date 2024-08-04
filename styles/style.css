@@ -70,11 +70,13 @@
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .overlay {
-
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255 255 255 / 0.1);
 }
 
 .cover__title {
@@ -83,4 +85,19 @@
     line-height: 115%;
     text-transform: uppercase;
     color: white;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding-top: 165px;
+}
+
+.aligned-text {
+    padding-left: 50px;
+}
+
+.aligned-text_center {
+    justify-self: center;
+}
+
+.aligned-text_right {
+    justify-self: end;
 }
