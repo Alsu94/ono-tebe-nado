@@ -1,14 +1,9 @@
-/* .page {
-
-} */
-
 .content-section {
     padding: 0 24px;
 }
 
 .header {
     display: grid;
-    /* grid-template-columns: 1fr 163px 1fr; */
     grid-template-columns: 2.7fr 1fr 2.7fr;
     padding-top: 92px;
     padding-bottom: 93px;
@@ -36,7 +31,6 @@
 .header__menu-link {
     font-weight: normal;
     font-size: 18px;
-    line-height: auto;
 }
 
 .header__logo {
@@ -46,9 +40,8 @@
 
 .header__logo-image {
     height: 103px;
-    width: 136px; /*136px*/
+    width: 136px; 
 }
-
 
 .address {
     font-size: 18px;
@@ -161,7 +154,6 @@
     cursor: pointer;
 }
 
-
 .lots {
     padding-top: 179px;
 }
@@ -249,7 +241,6 @@
 
 .lots__look-more-link {
     font-size: 20px;
-    line-height: auto;
     padding-left: 40px;
 }
 
@@ -260,7 +251,6 @@
     padding-right: 29px;
     display: grid;
     grid-template-columns: minmax(334px, max-content) 1fr;
-    /* grid-template-rows: repeat(2, 1fr); */
     column-gap: 25px;
     justify-items: center;
 }
@@ -268,7 +258,6 @@
 .about__column {
     display: grid;
     grid-template-rows: minmax(243px, max-content) repeat(2, auto);
-    /* align-items: center; */
 }
 
 .about__logo {
@@ -278,7 +267,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 57px 0; */
     border-radius: 50%;
 }
 
@@ -291,7 +279,6 @@
     align-self: center;
     font-size: 40px;
     font-weight: bold;
-    line-height: auto;
     text-transform: uppercase;
 }
  
@@ -307,14 +294,14 @@
 }
 
 .footer {
-    height: 100px;
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 50px;
 }
 
-.footer__menu {
-    justify-self: center;
+.footer__address {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__menu-list {
@@ -322,17 +309,22 @@
     text-align: center;
 }
 
+.footer__menu-item_active {
+    text-decoration: none;
+}
+
+.footer__menu-link {
+    font-size: 18px;
+}
+
 .footer__social-list {
     list-style: none;
     display: flex;
-    align-items: flex-start;
+    column-gap: 48px;
     justify-content: end;
 }
-.footer__social-list-item {
-    /* width: 10%;
-    height: 10%; */
-}
+
 .footer__social-icon {
-    /* width: 20%; */
-   
+    height: 48px;
+    width: 48px;
 }
