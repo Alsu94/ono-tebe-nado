@@ -188,7 +188,6 @@
 
 .card {
     height: 100%;
-    position: relative;
     padding: 51px 40px 48px;
     color: white;
     display: flex;
